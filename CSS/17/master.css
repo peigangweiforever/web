@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+  margin: 100px;
+}
+.test{
+  width: 200px;
+  height:200px;
+  background-color: green;
+  box-shadow: 3px 3px 3px gray;
+
+  /*平移效果*/
+  /*transform: translate(100px);*/
+  /*transform: translate(100px,100px);*/
+  /*transform: translateX(100px);*/
+  /*transform: translateY(100px);*/
+
+  /*旋转效果*/
+  /*transform: rotate(45deg);*/
+  /*transform: rotate(-45deg);*/
+
+   /*放大缩小效果*/
+   /*transform: scale(1.5);*/
+   /*transform: scale(1.5,1);*/
+   /*transform: scaleX(1.5);*/
+   /*transform: scaleY(1.5);*/
+
+   /*扭曲*/
+   /*transform: skew(45deg);*/
+   /*transform: skewX(45deg);*/
+   /*transform: skewY(45deg);*/
+   /*矩阵*/
+   transform: matrix(0,1,1,1,30px,10px);
+
+
+}
