@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+div{
+  width: 200px;
+  height:100px;
+  margin: 5px;
+  border: 2px solid red;
+  float: left;
+
+}
+
+h1{
+  clear: both;
+}
+
+.test{
+  background-image: linear-gradient(red,green);
+  /*float: left;*/
+  /*background-image: linear-gradient(to bottom right,red,green);*/
+  /*background-image: linear-gradient(45deg,red 0%,green 50%,blue 90%);*/
+
+}
+.test1{
+  background-image: linear-gradient(to top,red,green);
+    /*float: left;*/
+}
+
+.test2{
+  background-image: linear-gradient(0deg,red,green,blue);
+    /*float: left;*/
+}
+
+.test3{
+  background-image: repeating-linear-gradient(45deg,red ,green 20%,blue 30%);
+  clear: both;
+  /*float: left;*/
+}
+.test4{
+  background-color: red;
+  /*float: left;*/
+  background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.5),rgba(0,0,0,0));
+}
+.test5{
+    background-image: radial-gradient(red,green);
+}
+.test6{
+    background-image: radial-gradient(circle,red,green,blue);
+}
+.test7{
+    background-image: radial-gradient(circle at right top,red,green,blue);
+
+}
+.test8{
+    background-image: radial-gradient(circle closest-side,red,green,blue);
+    clear: both;
+}
+.test9{
+    background-image: radial-gradient(circle farthest-side,red,green,blue);
+}
+.test10{
+    background-image: repeating-radial-gradient(circle farthest-side,red,green,blue 30%);
+}
